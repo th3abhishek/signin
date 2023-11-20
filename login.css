@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+}
+.pinky,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color:yellow;
+    width: 15%;
+    border-radius: 5px;
+    padding: 25px;
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-size: 30px;
+}
+form label{
+    color:red;
+}
+form .paisa{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 25%;
+    border: none;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: white;
+}
+#Can{
+    width: 25%;
+    height: 25%;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+form a{
+    text-decoration: none;
+    color:black;
+}
+i{
+    position: absolute;
+    top: 47%;
+    left: 43%;
+}
+#user{
+    position: relative;
+}
